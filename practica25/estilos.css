@@ -1,0 +1,41 @@
+
+body{
+    background-color: #747474;
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+    margin: -20px;
+}
+section{
+    background-color: white;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+}
+button{
+   background-color: #ff5a5a;
+    color: white;
+}
+p:nth-of-type(2)>img{
+}
+input[type=text]{
+    background-image:url("img/user2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+::placeholder{
+    background-color: #cccccc;
+    color: white;
+}
+fieldset legend{
+    color: #cccccc;
+    border-color: #cccccc;
+}
+fieldset label{
+    text-align: left;
+}
+fieldset{
+    margin: 0 50px;
+}
