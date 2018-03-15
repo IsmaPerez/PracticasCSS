@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Aladin');
+
+body{
+    background-color: #accdfb;
+    background-image: url("imagenes/fondo.png");
+    background-repeat: repeat-y;
+    padding-left: 9em;
+}
+
+h1,h2,h3 {
+    font-family: aladin;
+    font-weight: 400;
+    color: white;
+    text-shadow:black 5px 5px 5px;
+}
+h1{
+    margin-left: -4.5em;
+    font-weight: normal;
+    background-color: #255089;
+    background-image: url("imagenes/girasolesMiniatura.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    text-align: center;
+}
+h2{
+  border-bottom: solid;
+  border-bottom-color: white;
+}
+figure{
+    border: solid 1px white;
+    margin-left: -5px;
+    padding: 5px 5px 5px 5px;
+}
+
+figure figcaption{
+    color: white;
+    background-color: black;
+    font-family: Verdana;
+    font-weight: 700;
+}
+p{
+    font-family: Garamond;
+    font-weight: 700;
+}
+ul{
+    color: white;
+    background-color: #142141;
+    border: solid 2px white;
+}
+
+ul li {
+    list-style-image: url("imagenes/pincel.png");
+
+}
+
+li{
+    border: solid 2px black;
+    margin: 20px;
+    padding: 5px;
+}
+
+a{
+    color: white;
+}
+ li:hover{
+     background-color: #547089;
+ }
+
+ a:hover{
+    text-transform: uppercase;
+     text-decoration: none;
+ }
+ a:hover+strong{
+     display: none;
+ }

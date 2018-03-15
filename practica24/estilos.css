@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Cantarell');
+
+body{
+    background-image: url("img/parquet.jpg");
+    margin: 30px 30px 30px 30px;
+}
+section:first-of-type{
+    background: linear-gradient(90deg,#042b47,#660c26);
+    margin: 0;
+    text-align: center;
+}
+section:nth-of-type(2){
+    background-color: #e8a2b6;
+    background-image: url("img/curry.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 600px;
+    margin-bottom: -50px;
+}
+section:last-of-type{
+    background-color: #b0d8f5;
+    background-image: url("img/lebron.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+h1{
+    font-family: Anton,sans-serif;
+    font-size: 250px;
+    color: white;
+    padding-left: 100px;
+    margin: 0;
+    text-align: center;
+}
+h2:nth-of-type(1){
+    font-family: Anton,sans-serif;
+    font-size: 110px;
+    color: #042b47;
+    margin: 0;
+    text-align: right;
+    padding-right: 20px;
+}
+section:nth-of-type(2)>h3{
+    font-family: Cantarell,sans-serif;
+    text-align: center;
+    background-color: #042b47;
+    color: white;
+    margin: 0;
+    margin-left: 50%;
+    margin-right: 20px;
+}
+section:nth-of-type(3)>h2{
+    font-family: Anton,sans-serif;
+    text-align: left;
+    color: #660c26;
+    margin-left: 20px;
+}
+section:nth-of-type(3)>h3{
+    font-family: Cantarell,sans-serif;
+    text-align: center;
+    background-color: #660c26;
+    color: white;
+    margin-right: 50%;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+section:nth-of-type(2)>ol{
+    text-align: right;
+    font-family: Cantarell,sans-serif;
+    padding-right: 20px;
+    margin-left: 50%;
+    list-style-type: upper-roman;
+    background-color: rgba(255,255,255,.5);
+    padding-bottom: 50px;
+    margin-top: 0;
+    margin-right: 20px;
+}
+section:nth-of-type(3)>ol{
+    text-align: left;
+    font-family: Cantarell,sans-serif;
+    margin-right: 50%;
+    background-color: rgba(255,255,255,.5);
+    list-style-type: upper-roman;
+    margin-left: 20px;
+    padding-bottom: 50px;
+    margin-top: 0;
+}
+li{
+    font-family: Cantarell,sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+}
+strong{
+    color: #2c6624;
+    border: dotted;
+}
