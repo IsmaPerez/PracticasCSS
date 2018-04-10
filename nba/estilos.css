@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Cantarell');
+
+body{
+    background-image: url("img/parquet.jpg");
+    margin: 60px
+}
+#titulo{
+    background-image: linear-gradient(to right,#042b47,#660c26);
+    background-position: center;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+h1{
+    font-size: 250px;
+    font-family: Anton,sans-serif;
+    margin: 0;
+}
+#west{
+    background-color: #e8a2b6;
+    margin: 0;
+}
+section:nth-of-type(2){
+    background-image: url("img/curry.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+section:nth-of-type(2) h2{
+    text-align: right;
+    font-family: Anton,sans-serif;
+    padding-right: 20px;
+    font-size: 6em;
+    margin-top: 0;
+    color: #042b47;
+}
+section:nth-of-type(2) h3{
+    background-color: #042b47;
+    text-align: right;
+    font-family: Cantarell,sans-serif;
+    padding-right: 20%;
+    margin-left: 50%;
+    color: white;
+    margin-right: 10px;
+}
+section:nth-of-type(2) ol{
+    list-style-type: upper-roman;
+    text-align: center;
+    margin-right: 10px;
+    font-family: Cantarell,sans-serif;
+    background-color: rgba(255,255,255,.5);
+    margin-left: 50% ;
+    padding-right: 20px;
+}
+ol{
+    margin: 0 auto;
+}
+li{
+    border-bottom: solid 2px white;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+section:nth-of-type(2) h2{
+    text-align: right;
+    font-family: Anton,sans-serif;
+    padding-right: 20px;
+    font-size: 6em;
+    margin-top: 0;
+}
+h3{
+    margin: 0 auto;
+}
+section:nth-of-type(3){
+    margin: 0;
+    background-color: #b0d8f5;
+    background-image: url("img/lebron.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding-bottom: 10px;
+}
+section:nth-of-type(3) h2{
+    margin-top: 0 auto;
+    font-family: Anton, sans-serif;
+    font-size: 6em;
+    color: #660c26;
+    padding-left: 10px;
+}
+section:nth-of-type(3) h3{
+    font-family: Cantarell,sans-serif;
+    background-color: #660c26;
+    color: white;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 50%;
+    text-align: center;
+}
+section:nth-of-type(3) ol{
+    padding-top: 5px;
+    font-family: Cantarell,sans-serif;
+    background-color: rgba(255,255,255,.5);
+    margin-right: 50%;
+    margin-left: 10px;
+    list-style-type: upper-roman;
+    text-align: center;
+}
+strong{
+    color: #2c6624;
+    border: dotted #2c6624;
+}
+h2{
+    margin: 0 auto;
+}
+
+#east {
+    margin: 0;
+}
+
+
